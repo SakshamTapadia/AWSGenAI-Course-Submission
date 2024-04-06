@@ -4,39 +4,36 @@
 
 ### Overview
 
-This project involves fine-tuning the Llama2 Large Language Model using Amazon SageMaker, focusing on the financial domain. Here are the key steps and outcomes:
+This project focuses on fine-tuning the Llama2 Large Language Model using Amazon SageMaker, specifically tailored for the financial domain. Below are the essential steps and outcomes:
 
-### 1) Pre-trained Model Evaluation
+### 1) Evaluation of Pre-trained Model
 
-- **Notebook Instance Type Used:** `ml.t3.medium`
-- **Amazon EC2 G5 instance Used:** `ml.g5.2xlarge`
+- **Notebook Instance Type Utilized:** `ml.t3.medium`
+- **Amazon EC2 G5 instance Employed:** `ml.g5.2xlarge`
 
 #### Steps:
 
-1. **Deploy the Llama2 Model on AWS SageMaker:**
-   - Use the pre-trained Llama2 Text Generation Large Language Model.
+1. **Deployment of Llama2 Model on AWS SageMaker:**
+   - Utilization of the pre-trained Llama2 Text Generation Large Language Model.
 
-2. **Evaluate the Pre-trained Llama2 Model for Financial Domain Knowledge:**
-   - Provide domain-specific input for evaluation.
+2. **Assessment of Pre-trained Llama2 Model for Financial Domain Knowledge:**
+   - Evaluation using domain-specific inputs.
    - **Input:** "The results are encouraging for aggressive investors"
-   - **Model Response:** "For those who want to trade in the short term, the stock is currently trading at $31.40, which is 45.6% higher than the 52-week low of $21.67 and 66.4% higher than the 52-week high."
+   - **Model Response:** "For those inclined towards aggressive investment, the current stock trades at $31.40, marking a 45.6% increase from the 52-week low of $21.67 and a 66.4% increase from the 52-week high."
 
-### 2) Fine-tuning a Large Language Model
+### 2) Fine-tuning of Large Language Model
 
-- Fine-tune a Large Language Model with a Financial Domain-Specific Dataset
+- Fine-tuning of a Large Language Model with a Financial Domain-Specific Dataset.
 
-### 3) Evaluate the Fine-tuned Llama2 Large Language Model
+### 3) Evaluation of the Fine-tuned Llama2 Large Language Model
 
-- Deploy the Fine-tuned Llama2 Model on AWS SageMaker
-- Evaluate the Fine-tuned Llama2 Text Generation Large Language Model on Text Generation Tasks and Financial Domain Knowledge
+- Deployment of the Fine-tuned Llama2 Model on AWS SageMaker.
+- Evaluation of the Fine-tuned Llama2 Text Generation Large Language Model on Text Generation Tasks and Financial Domain Knowledge.
 
 #### Steps:
 
 1. **Domain-specific Input:**
-   - "The results are encouraging for aggressive investors"
+   - "The results are encouraging for aggressive investors."
 
 2. **Model Response:**
-   - "The S&P 500 is up 14% this year, but it's not the only index that's outperforming. The S&P Midcap 400 is up 16% so far in 2019, and the S&P."
-
-
-
+   - "The S&P 500 has seen a 14% increase this year, but it's not the only index showing strong performance. The S&P Midcap 400 has surged by 16% in 2019, showcasing robust growth alongside the S&P."
